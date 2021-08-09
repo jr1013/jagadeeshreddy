@@ -36,6 +36,7 @@ body{
 }
 /*gallery*/
 div.gallery {
+	width:520px;
   border: 1px solid #ccc;
 }
 
@@ -113,16 +114,44 @@ div.desc {
 .one {
   
   width: auto;
-  height:auto;
+  height:80vh;
   display:block;
   font-style:align;
 }
 .two {
   width: auto;
-    height: auto;
+    height: 80vh;
   display:block;
-}
+    font-style:align;
 
+}
+.projectgallery p{
+	width:550px;
+	height:80vh;
+	display:block;
+}
+.projectgallery{
+	width: auto;
+    height: 80vh;
+  display:block;
+    font-style:align;
+	margin: 5rem 3rem;
+	
+}
+.projectgalleryimg{
+	padding-top:5rem; 
+	width: auto;
+    height: 80vh;
+  display:block;
+    font-style:align;
+}
+.projectgalleryvideo{
+	width: auto;
+    height: 80vh;
+  display:block;
+  margin-left:2rem  ;
+  margin-top:-1.5rem;
+}
 .outer-wrapper {
 	margin-top:5rem;
   width: auto;
